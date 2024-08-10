@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+}
+
+body{
+    display: flex;
+    
+    
+}
+
+.information{
+    width: 50%;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: start;
+}
+
+.content-information{
+    display: flex;
+    flex-direction: column; 
+    margin: 0 5rem;
+    gap: 10px;
+}
+
+.photography{
+width: 50%;
+height: 100vh;
+background-image: url("img/photograpy.jpg");
+background-size:cover;
+background-position: -130px; 
+}
+
+
+.content-information h1{
+    font-size: 3.1rem; 
+}
+ 
+
+.content-information h1 span{
+    color: rgb(245, 151, 57);
+    font-family: "Aboreto", system-ui;
+}
+
+.content-information .info-information{  
+    font-size: 14px;
+    width: 250px;
+    background-color:  rgb(245, 151, 57);;
+    color: #111;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+
+.information button{
+ background-color: rgb(245, 151, 57);; 
+ border: none;
+ padding: 10px;
+ width: 200px;
+ border-radius: 20px;
+ font-family: "Roboto", sans-serif;
+ font-weight: 700;
+ font-style: italic;
+ 
+ cursor: pointer;
+}
+
+
+.information button:hover{
+    color: #fff;
+}
+.photography{
+    position: relative;
+}
+
+.photography .iconsLinks{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    position: absolute;
+    right: 40px;
+    top: 200px;
+    background-color: rgb(245, 151, 57);
+    padding: 20px;
+    border-radius: 20px;
+
+
+}
+
+.iconsLinks{
+    color: beige;
+}
+
+.iconsLinks svg:hover{
+    color: #111;
+    cursor: pointer;
+}
+
+.moneda{
+    height: 30px;
+    width: 30px;
+}
